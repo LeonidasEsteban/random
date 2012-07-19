@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Te regalo</title>
+<script src="prefixfree.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Norican' rel='stylesheet' type='text/css'>
+<style>
+body{
+	background:white;
+	color:pink;
+	font-family: 'Norican', cursive;
+	font-size:60px;
+	margin:0;
+}
+audio{
+	display:block;
+	margin:0 auto;
+	position:absolute;
+	left:0;
+	bottom:0;
+	z-index:3;
+}
+#audio{
+	margin:0 auto;
+	overflow:hidden;
+	width:1000px;
+}
+#audio p{
+	
+	text-align:center;
+	position:relative;
+	z-index:2;
+}
+.animacion{
+    animation-duration:171s;
+    animation-name:adammo ;
+    animation-delay:17s;
+    animation-timing-function:linear;
+}
+@keyframes adammo{
+	from{transform:translateY(0);}
+	to{transform:translateY(-4000px);}
+}
+</style>
+<script>
+
+function animacion(){
+	document.getElementById("letra").className = "animacion";
+}
+
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28518727-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+<section id="audio">
+	<audio controls autoplay  id="musica" onPlay="animacion()">
+    <source src="te regalo_@LeonidasEsteban.mp3" type="audio/mpeg" />
+    <source src="te regalo_@LeonidasEsteban.ogg" type="audio/ogg"  />
+    </audio>
+    <article>
+        <p id="letra">
+        te regalo un beso, te regalo una flor<br/>
+        te regalo el verano y una brisa de amor<br/>
+        te regalo mil besos pa ponértelos hoy<br/>
+        <br/>
+        te regalo versos que hacen esta canción<br/>
+        te regalo el cielo y una puesta de sol<br/>
+        te regalo sonrisas pa que opaques el sol<br/>
+        <br/>
+        y no puedo, sacarte de mi mente<br/>
+        voltéa de una vez...<br/>
+        <br/>
+        sabes que quiero, que siento y que no puedo<br/>
+        sabes que tengo un poco de ti<br/>
+        <br/>
+        sabes que quiero, que siento y que me muero<br/>
+        sabes que tienes...un poquitito de mi<br/>
+        <br/>
+        te regalo el cielo y un milenio de amor<br/>
+        te hago real un sueño pa que cambies de humor<br/>
+        y aunque no me veas, sé que escuchas mi voz<br/>
+        <br/>
+        no recibo premios por ganarme tu amor<br/>
+        estoy desesperado y perdiendo el control<br/>
+        </br>
+        sabes que quiero, que siento y que no puedo<br/>
+        sabes que tengo un poco de ti<br/>
+        <br/>
+        sabes que quiero, te siento y que me muero<br/>
+        sabes que tienes...un poquitito de mi<br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        te regalo un beso, te regalo una flor<br/>
+        te regalo el verano y una brisa de amor<br/>
+        te regalo mil besos pa ponértelos hoy<br/>
+        <br/>
+        y no puedo, sacarte de mi mente<br/>
+        voltéa de una vez...<br/>
+        <br/>
+        sabes que quiero, que siento y que no puedo<br/>
+        sabes que tengo un poco de ti<br/>
+        contigo muero<br/>
+        <br/>
+        sabes que quiero, te siento y que me muero<br/>
+        sabes que tienes...un poquitito de mi<br/>
+        sin ti yo me muero<br/>
+        </p>
+    </article>
+</section>
+</body>
+</html>
